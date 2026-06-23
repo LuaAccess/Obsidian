@@ -1,0 +1,15 @@
+{
+  "name": "obsidian-skills",
+  "owner": {
+    "name": "LuaAccess",
+    "url": "https://github.com/LuaAccess"
+  },
+  "plugins": [
+    {
+      "name": "obsidian",
+      "source": "./",
+      "description": "Claude Skills for Obsidian",
+      "version": "1.0.1"
+    }
+  ]
+}
