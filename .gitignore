@@ -1,0 +1,25 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor
+.vscode/
+.idea/
+
+# Node (if defuddle is installed locally)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Local env / secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+dist/
+*.egg-info/
+__pycache__/
